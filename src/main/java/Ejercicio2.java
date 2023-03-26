@@ -2,12 +2,8 @@ import java.util.Scanner;
 import java.util.function.IntConsumer;
 
 public class Ejercicio2 {
-    //En el pseudocodigo de la funcion recursiva se puede ver que se divide el intervalo en dos partes
-    //y se llama a la funcion recursiva con cada una de las partes
-    //como el condiconal principal es que num>1 ese serra el limite de la recursividad.
-    //A) La función f(x,2) divide de manera repetida x por 2 hasta que ya no es posible dividirlo por 2,
-    // imprimiendo en cada iteración el divisor utilizado. En otras palabras, imprime los factores primos de x.
-    //b) El nombre más adecuado deberia de ser descomposicionPrimos
+
+    //a) El nombre más adecuado deberia de ser descomposicionPrimos
 
     public static void factorizacionIterativa(int num){
         for (int i = 2; i <= num; i++) {
